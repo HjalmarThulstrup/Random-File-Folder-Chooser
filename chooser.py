@@ -8,6 +8,6 @@ if __name__ == "__main__":
     path = args.path
     if path[-1:] != "/" or path[-1:] != "\\":
         path = path + "/"
-    _path = random.choice(os.listdir(args.path))
-    path = path + _path
+    ran_path = random.choice(os.listdir(args.path))
+    path = path + ran_path
     os.startfile(path)
