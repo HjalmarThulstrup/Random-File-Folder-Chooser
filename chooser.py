@@ -10,4 +10,5 @@ if __name__ == "__main__":
         path = path + "/"
     ran_path = random.choice(os.listdir(args.path))
     path = path + ran_path
+    print('Opening ' + ran_path)
     os.startfile(path)
